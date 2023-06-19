@@ -41,13 +41,13 @@ CREATE TABLE table_name (
 ### 예시
 
 ```sql
-CREATE TABLE Member (
-  id INT AUTO_INCREMENT PRIMARY KEY, 
-  name VARCHAR(255), 
-  age INT CHECK(age > 0 AND age < 150)
+CREATE TABLE Members (
+  id int AUTO_INCREMENT PRIMARY KEY, 
+  name varchar(255), 
+  age int CHECK(age > 0 AND age < 150)
 );
 ```
 
 ```sql
-INSERT INTO Member (name, age) VALUES ('Dongwook', 28);
+INSERT INTO Members (name, age) VALUES ('Dongwook', 28);
 ```
