@@ -10,7 +10,7 @@ AUTO_INCREMENT는 테이블에 새로운 레코드가 삽입될 때, 자동으�
 
 ```sql
 CREATE TABLE Members (
-  id NOT NULL AUTO_INCREMENT, 
+  id int AUTO_INCREMENT, 
   name varchar(255) NOT NULL, 
   age int, 
   PRIMARY KEY id
