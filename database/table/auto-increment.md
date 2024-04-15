@@ -19,10 +19,17 @@ CREATE TABLE Members (
 
 <br>
 
+- 수정
+
+```sql
+ALTER TABLE Members MODIFY id INT AUTO_INCREMENT;
+```
+
+<br>
+
 - AUTO_INCREMENT의 시작값으로 다른 값을 설정하고 싶다면:
 - 아래 SQL문에서 유추할 수 있듯이, **AUTO_INCREMENT는 하나의 열에만 적용할 수 있음.**
 
 ```sql
 ALTER TABLE Members AUTO_INCREMENT = 100;
 ```
-
